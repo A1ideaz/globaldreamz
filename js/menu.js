@@ -26,6 +26,13 @@ menu1[1]='<a href="our-philosophy.html"> &nbsp; Our Philosophy</a>'
 
 menu1[2]='<a href="our-studios.html"> &nbsp; Our Studios</a>'
 	
+var menu3= new Array()
+
+menu3[0]='<a href="#">BS</a>'
+menu3[1]='<a href="#">MBA</a>'
+menu3[2]='<a href="#">MS</a>'
+menu3[3]='<a href="#">PHD</a>'
+menu3[4]='<a href="#">Summer</a>'
 
 var menuwidth='200px'; //default menu width
 
