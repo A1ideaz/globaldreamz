@@ -1,0 +1,184 @@
+/* CSS Document */
+
+body {  background-color:#FAFCD4;  margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; }
+
+#bg { position: fixed; top: 0; left: 0; }
+
+.form input { width:300px;}
+
+a { color:#666666; text-decoration:none; font-weight:bold; font-size:16px}
+
+a:hover { text-decoration:underline}
+
+textarea { width:300px; height:100px;} 
+
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+#wrapper { width:920px; height:auto; margin:0 auto; padding:20px 0px 0px 0px;   position: relative;  }
+
+#container { background:url(../images/note-book-bg.jpg) repeat;}
+
+.logo { padding-top:10px; z-index:100; margin-left: 33px;}
+
+.phone a { position:absolute; top:55px; left:673px; font-family: 'Gloria Hallelujah', cursive; font-size:16px; color:#336B88; text-align:right;}
+
+.menu { position:absolute; top:55px; left:340px; font-family: 'Gloria Hallelujah', cursive; font-size:16px; color:#666666}
+
+.menu a { color:#666666; text-decoration:none}
+
+.menu a:hover { text-decoration:underline; color:#83C142}
+
+.students { margin-left:230px }
+
+.topSchool { position:absolute; top:270px; left:160px;}
+
+.topSchool div { background:url(../images/achieve-dreams.png) no-repeat; width:319px; height:234px; cursor:pointer}
+.topSchool div:hover { background:url(../images/achieve-dreams-2.png) no-repeat; width:319px; height:234px; cursor:pointer}
+
+.cost { position:absolute; top:380px; left:50px;}
+
+.cost div { background:url(../images/application-process.png) no-repeat; width:289px; height:122px; cursor:pointer}
+.cost div:hover { background:url(../images/application-process-2.png) no-repeat; width:289px; height:122px; cursor:pointer}
+
+.what { position:absolute; top:120px; left:532px;}
+
+.what div { background:url(../images/which-country.png) no-repeat; width:330px; height:140px; cursor:pointer;}
+.what div:hover { background:url(../images/which-country-2.png) no-repeat; width:330px; height:140px; cursor:pointer;}
+
+.where { position:absolute; top:221px; left:520px;}
+
+.where div { background:url(../images/what-university.png) no-repeat; width:318px; height:123px; cursor:pointer;}
+.where div:hover { background:url(../images/what-university-2.png) no-repeat; width:318px; height:123px; cursor:pointer;}
+
+.program { position:absolute; top:311px; left:560px;}
+
+.program div { background:url(../images/trending-program.png) no-repeat; width:280px; height:154px; cursor:pointer;}
+.program div:hover { background:url(../images/trending-program-2.png) no-repeat; width:280px; height:154px; cursor:pointer;}
+
+.secure { position:absolute; top:438px; left:539px;}
+
+.secure div { background:url(../images/secure.png) no-repeat; width:280px; height:154px; cursor:pointer;}
+.secure div:hover { background:url(../images/secure-2.png) no-repeat; width:280px; height:154px; cursor:pointer;}
+
+.expertise { position:absolute; top:535px; left:550px;}
+
+.expertise div { background:url(../images/expertise.png) no-repeat; width:249px; height:161px; cursor:pointer;}
+.expertise div:hover { background:url(../images/expertise-2.png) no-repeat; width:249px; height:161px; cursor:pointer;}
+
+.reach { position:absolute; top:505px; left:45px;}
+
+.reach div { background:url(../images/reach-global-dreamz.png) no-repeat; width:298px; height:121px; cursor:pointer;}
+.reach div:hover { background:url(../images/reach-global-dreamz-2.png) no-repeat; width:298px; height:121px; cursor:pointer;}
+
+.feedback { position:absolute; top:615px; left:50px;}
+
+.feedback div { background:url(../images/feedback.png) no-repeat; width:269px; height:144px; cursor:pointer;}
+.feedback div:hover { background:url(../images/feedback-2.png) no-repeat; width:269px; height:144px; cursor:pointer;}
+
+.motto { padding:0px 20px 20px 0px; text-align:left; width:200px;}
+
+.content { padding:8px 12px 8px 12px; font-family:'Gloria Hallelujah', cursive; font-size:18px; color:#333333; text-align:justify; margin-left:24px;}
+
+.content img { float:left; margin-left: 20px;}
+
+.content2 { padding:8px 12px 8px 12px; font-family:'MV Boli', cursive; font-size:18px; color:#333333; text-align:justify; margin-left:24px;}
+
+.content2 img { float:left; margin-left: 20px;}
+
+.content2 ol,li { }
+
+.content3 { padding:8px 12px 8px 12px; font-family:'Lucida Calligraphy', cursive; font-size:18px; color:#333333; text-align:justify; margin-left:24px;}
+
+.content3 img { float:left; margin-left: 20px;}
+
+h2 { font-family:'MV Boli', font-size:32px; font-weight:normal; line-height:normal; display:inline; color:#333333; margin-left:5px;}
+
+.margin { background:url(../images/notebook.png) repeat-y;}
+
+#footer { padding:2px 0px 18px 8px ; color:#333333; font-family: 'MV Boli', cursive; font-size:14px; width:100%; text-align:center}
+
+#footer a { color:#333333; text-decoration:none; font-weight:bold;}
+
+#footer a:hover { text-decoration:underline}
+
+.copy { text-align:center;  font-family: 'Gloria Hallelujah', cursive;}
+
+.copy a { text-decoration:none; color:#000000; font-weight:bold}
+
+.copy a:hover { color:#999999}
+
+.fMenu { color:#83C142;}
+
+#error { font-family: 'Gloria Hallelujah', cursive;}
+
+#form { font-size:14px}
+
+.success {position:fixed; left:-60px; bottom:-95px;}
+
+.graduate {position:fixed; right:-36px; bottom:-90px;}
+
+.balloon1 {position:fixed; top:20px; left:-30px;}
+
+.balloon2 {position:fixed; right:-7px; top:-42px;}
+
+/*-----Tabular data-----*/
+
+#table01{
+	margin:10px 0 10px 15px;
+	border-top:1px solid #353535;
+	border-left:1px solid #353535;
+	border-right:1px solid #353535;
+	border-bottom:0;
+	}
+
+#table01 td {
+	text-align: left;
+	padding:5px 5px 5px 15px;	
+	vertical-align:middle;
+	border-bottom:1px solid #353535;
+	}
+	
+.table-row-rig{
+	background: #DE9336;
+	border-right:1px solid #353535;
+	}
+
+.table-row-left{
+	background: #DE9336;
+	border-left:1px solid #353535;
+	}
+
+.table-row-nobg{
+	border-left:1px solid #353535;
+	border-right:1px solid #353535;
+	}
+		
+.table-col01{
+		background:#F5C589;
+		}
+	
+.table-col02{
+		background:none;
+		}
+
+.contact-details p{
+	margin:0;
+	padding:5px 0 0 0;
+	line-height:20px;
+	}
+	
+#smenu { position:absolute; top:34px; left:120px; width:290px; height:160px; background-color:#FFFFFF; padding:0px 0px 10px 10px; z-index:1;  font-family: 'Gloria Hallelujah', cursive;}
+
+#dropmenudiv{
+/*opacity: 
+.9;filter: alpha(opacity=90);-moz-opacity: 
+.9; */width:290px;position:absolute;top:94px !important;margin-left:120px !important;font-size:12px;font-weight:700;line-height:24px;z-index:100;background-color:#FFFFFF;text-align:left; }
+#dropmenudiv a{color:#666666;width: 100%;display: block;text-decoration: none;height:24px;margin-left:14px;vertical-align:middle;  font-family: 'Gloria Hallelujah', cursive;}/*
+.facebook{float:left;background:url(images/facebook-b
+.png) no-repeat;width:32px;height:32px;cursor:pointer;}
+.facebook:hover{float:left;background:url(images/facebook
+.png) no-repeat;width:32px;height:32px;cursor:pointer;}*/
+#dropmenudiv a:hover{color:#83C142;}
+
+#smenu a { height:20px;}

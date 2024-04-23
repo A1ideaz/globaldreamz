@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Global Dreamz - Website Design Mockup Version #1</title>
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<img src="images/bg2.jpg" id="bg" />
+
+	<div id="wrapper">
+		<img src="images/global-main.png" />
+	</div>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function() {   
+                
+                        var theWindow        = $(window),
+                            $bg              = $("#bg"),
+                            aspectRatio      = $bg.width() / $bg.height();
+                                                                
+                        function resizeBg() {
+                                
+                                if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgheight');
+                                } else {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgwidth');
+                                }
+                                                        
+                        }
+                                                                
+                        theWindow.resize(function() {
+                                resizeBg();
+                        }).trigger("resize");
+                
+                });
+</script>
+</body>
+</html>
