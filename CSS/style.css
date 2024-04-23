@@ -30,6 +30,19 @@ textarea { width:300px; height:100px;}
 .menu a:hover { text-decoration:underline; color:#83C142}
 
 .students { margin-left:230px }
+.blink {
+	animation: blink 1s infinite;
+}
+
+@keyframes blink {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
 
 .topSchool { position:absolute; top:270px; left:160px;}
 
@@ -45,6 +58,19 @@ textarea { width:300px; height:100px;}
 
 .what div { background:url(../images/which-country.png) no-repeat; width:330px; height:140px; cursor:pointer;}
 .what div:hover { background:url(../images/which-country-2.png) no-repeat; width:330px; height:140px; cursor:pointer;}
+.what div {
+	background: url(../images/which-country.png) no-repeat;
+	animation: blink 1s infinite;
+}
+
+@keyframes blink {
+	0%, 100% {
+		background: url(../images/which-country.png) no-repeat;
+	}
+	50% {
+		background: url(../images/which-country-2.png) no-repeat;
+	}
+}
 
 .where { position:absolute; top:221px; left:520px;}
 
