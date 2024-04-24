@@ -7,6 +7,12 @@
 <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 <script type="application/javascript" src="js/menu.js"></script>
+<style>
+	.blink{
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+	}
+</style>
 </head>
 
 <body>
@@ -114,7 +120,28 @@ $(function() {
                                 resizeBg();
                         }).trigger("resize");
                 
-                });		
+                });	
+				
+document.addEventListener('DOMContentLoaded', function(){
+	var index = 0;
+	var images = document.querySelectorAll('.blink');
+
+	function blink(){
+		images[index].style.opacity = 0;
+
+		setTimeout(function(){
+			images[index].style.opacity = 1;
+			index = (index + 1) % images.length;
+			setTimeout(blink, 400);
+		}, 400);
+	}
+
+	for(var i =0; i< images.length; i++){
+		images[i].style.opacity = 1;
+	}
+
+	blink();
+});
 </script>
 </body>
 </html>
