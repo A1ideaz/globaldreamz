@@ -194,7 +194,7 @@ dropmenuobj.x=getposOffset(obj, "left")
 
 dropmenuobj.y=getposOffset(obj, "top")
 
-dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")-0+"px"
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")-60+"px"
 
 dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+6+"px"
 
